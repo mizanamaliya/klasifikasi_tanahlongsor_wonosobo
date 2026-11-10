@@ -1,0 +1,16 @@
+# requirements_app.txt
+# Install dengan: pip install -r requirements_app.txt
+
+flask>=2.3.0
+flask-cors>=4.0.0
+numpy>=1.24.0
+pandas>=2.0.0
+scikit-learn>=1.3.0
+xgboost>=1.7.0
+statsmodels>=0.14.0
+jenkspy>=0.3.3
+scipy>=1.11.0
+
+# PyTorch — digunakan untuk load/save model .pt
+# CPU-only (lebih ringan, cukup untuk inferensi Flask):
+torch>=2.0.0
